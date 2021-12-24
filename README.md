@@ -15,6 +15,7 @@ Best practice of software engineering were applied, including:
 - Writing tests & logs
 
 Dependencies and libraries
+- Cython
 - scikit-learn
 - shap
 - pylint

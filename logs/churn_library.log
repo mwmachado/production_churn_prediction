@@ -1,0 +1,19 @@
+root - INFO - test_import: SUCCESS: pth=./data/bank_data.csv
+root - INFO - test_import: SUCCESS: Data imported
+root - INFO - test_import: SUCCESS: Dataframe shape=(10127, 22)
+root - INFO - test_eda: SUCCESS: pth=./images/eda
+root - INFO - test_eda: SUCCESS: EDA performed
+root - INFO - test_eda: SUCCESS: 5 png images found at ./images/eda as expected
+root - INFO - test_encoder_helper: SUCCESS: loaded category_lst and result_lst with 5 elements each
+root - INFO - test_encoder_helper: SUCCESS: all columns in category_lst are present in the dataset
+root - INFO - test_encoder_helper: SUCCESS: Category features encoded
+root - INFO - test_perform_feature_engineering: SUCCESS: loaded keep_cols with 19 elements
+root - INFO - test_perform_feature_engineering: SUCCESS: all columns in keep_cols are presentin the dataset
+root - INFO - test_perform_feature_engineering: SUCCESS: Feature engineering performed
+root - INFO - test_perform_feature_engineering: SUCCESS: 2 datasets for training and 2 for test were created
+root - INFO - test_train_models: SUCCESS: img_pth=./images/results model_pth=./models
+root - INFO - test_train_models: SUCCESS: params={}
+root - INFO - test_train_models: SUCCESS: Models trained and save to ./models
+root - INFO - test_train_models: SUCCESS: Model scores were saved to ./images/results
+root - INFO - test_feature_importance_plot: SUCCESS: Feature importance plotted
+root - INFO - test_feature_importance_plot: SUCCESS: feature_importance.png is in ./images/results
